@@ -1,4 +1,4 @@
-#优雅的SSM架构(Spring+SpringMVC+Mybatis）
+#完美的SSM架构(Spring+SpringMVC+Mybatis）
 - Maven
 - Spring（IOC DI AOP 声明式事务处理）
 - SpringMVC（支持Restful风格）
@@ -13,5 +13,6 @@
 - JSP JSTL JavaScript
 - Sping Shiro权限控制（待完善）
 
-###**架构图：**
+###beauty_ssm架构图：**
 ![](http://i.imgur.com/vc6iu0X.png)# aBestProject
+##来自：https://github.com/donglipei/aBestProject
