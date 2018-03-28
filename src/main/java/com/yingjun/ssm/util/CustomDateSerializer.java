@@ -12,13 +12,13 @@ import java.util.Date;
 /**
  * 自定义返回JSON 数据格中日期格式化处理 
  * 
- * @author yingjun
+ * @author David.dong
  *
  */
 public class CustomDateSerializer extends JsonSerializer<Date> {
 
 	@Override
-	public void serialize(Date value, JsonGenerator jsonGenerator, SerializerProvider provider) throws IOException, JsonProcessingException {
+	public void serialize(Date value, JsonGenerator jsonGenerator, SerializerProvider provider) throws IOException,JsonProcessingException {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");  
         jsonGenerator.writeString(sdf.format(value));  
 	}

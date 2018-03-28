@@ -12,11 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.yingjun.ssm.entity.User;
 
-/**
- * 
- * @author yingjun
- *
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring/spring-dao.xml")
 public class UserDaoTest {

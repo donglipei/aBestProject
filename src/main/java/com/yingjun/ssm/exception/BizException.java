@@ -1,7 +1,7 @@
 package com.yingjun.ssm.exception;
 /**
  * 
- * @author yingjun
+ * @author David.dong
  *
  */
 public class BizException extends RuntimeException {
